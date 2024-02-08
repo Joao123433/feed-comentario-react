@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import NewPostForm from './components/NewPostForm'
 import Post from './components/Post'
 import usePost from './hooks/usePost'
