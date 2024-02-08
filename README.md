@@ -5,12 +5,12 @@ Este projeto foi desenvolvido utilizando TypeScript, React e Vite, o aplicativo 
 https://joao123433.github.io/feed-comentario-react/
 
 ## Estrutura do Projeto
-`App.tsx:` O componente principal do aplicativo. Ele renderiza a seção de comentários, utiliza o formulário NewPostForm para adicionar novos posts e exibe a lista de posts existentes.
-`NewPostForm.tsx:` Componente que contém um formulário para adicionar novos posts. Ele utiliza o hook personalizado usePost para gerenciar o estado dos posts.
-`Post.tsx:` Componente responsável por exibir um post na seção de comentários. Recebe as propriedades email, date e comment.
-`InputText.tsx:` Um componente que representa um campo de entrada de texto. É utilizado no formulário para capturar o email do usuário.
-`TextArea.tsx:` Componente semelhante ao InputText.tsx, mas específico para áreas de texto. Utilizado para capturar o comentário do usuário.
-`usePost.ts:` Um hook personalizado que gerencia o estado dos posts. Armazena os posts no localStorage e fornece uma função addPost para adicionar novos posts.
+- `App.tsx:` O componente principal do aplicativo. Ele renderiza a seção de comentários, utiliza o formulário NewPostForm para adicionar novos posts e exibe a lista de posts existentes.
+- `NewPostForm.tsx:` Componente que contém um formulário para adicionar novos posts. Ele utiliza o hook personalizado usePost para gerenciar o estado dos posts.
+- `Post.tsx:` Componente responsável por exibir um post na seção de comentários. Recebe as propriedades email, date e comment.
+- `InputText.tsx:` Um componente que representa um campo de entrada de texto. É utilizado no formulário para capturar o email do usuário.
+- `TextArea.tsx:` Componente semelhante ao InputText.tsx, mas específico para áreas de texto. Utilizado para capturar o comentário do usuário.
+- `usePost.ts:` Um hook personalizado que gerencia o estado dos posts. Armazena os posts no localStorage e fornece uma função addPost para adicionar novos posts.
 
 ## Como Executar o App
 1. Certifique-se de ter o ambiente de desenvolvimento configurado para o React.
